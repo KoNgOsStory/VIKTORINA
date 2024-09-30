@@ -1,0 +1,59 @@
+body {  
+    height: 100vh;
+    margin: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    font-size: 50px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5a8f1d7af9a61e79765a74c0/1543439805949-GJ1NI26DX7JZR1N57TLX/John+Wall+YES%21.gif?format=2500w);
+        background-repeat: no-repeat;
+    background-size:cover;
+    
+  }
+  .abc{
+    display:flex;
+    background: blue;
+  gap:50px;
+    flex-wrap:wrap;
+    justify-content:center;
+    position:absolute;
+    bottom:0;
+  padding:20px;
+    box-sizing: border-box;
+  }
+  .letter{
+    display:flex;
+    border:1px solid black;
+    background:greenyellow;
+    width: 35px;
+    height: 45px;
+    justify-content:center;
+    align-items:center;
+    cursor: pointer;
+    transition: .3s;
+    box-sizing: border-box;
+  }
+  .letter:hover{
+    background: silver;
+   color: red;
+    border: 3px dotted black;
+  
+  }
+  .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .a *{
+    border: 1px solid black;
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+  }
+  
